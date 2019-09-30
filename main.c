@@ -5,20 +5,13 @@
 
 int main(int argc, char *argv[]) {
 	
-	int x, y, z, m; //practice1
-	int a, b, c;
+	int x=3; //practice2
+	int cond1, cond2;
 	
-	x=1;
-	z=2;
-	a=3;
-	b=4;
-	c=5;
+	cond1=2<x&&x<5;
+	cond2=x>1||x<4&&x>3;
 	
-	y=m*x+b;
-	y=a*x*x+b*x+c;
-	m=(x+y+z)/3;
-	
-	printf("y=%d, m=%d", y, m);
+	printf("cond1=%d, cond2=%d", cond1, cond2);
 	
 	return 0;
 }
